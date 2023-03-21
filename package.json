@@ -1,0 +1,18 @@
+{
+  "name": "yotpo-react",
+  "version": "1.0.0",
+  "description": "Reactjs wrapper for the yotpo reviews plateform to collect the real time product reviews",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "yotpo-react"
+  ],
+  "author": "Gulzar Ali",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
