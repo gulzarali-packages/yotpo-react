@@ -14,5 +14,13 @@
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gulzarali-packages/yotpo-react.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gulzarali-packages/yotpo-react/issues"
+  },
+  "homepage": "https://github.com/gulzarali-packages/yotpo-react#readme"
 }
