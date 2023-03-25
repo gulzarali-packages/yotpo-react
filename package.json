@@ -1,7 +1,7 @@
 {
   "name": "yotpo-react",
   "version": "1.0.0",
-  "description": "Reactjs wrapper for the yotpo reviews plateform to collect the real time product reviews",
+  "description": "Nextjs wrapper for the yotpo reviews plateform to collect the real time product reviews",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/gulzarali-packages/yotpo-react/issues"
   },
-  "homepage": "https://github.com/gulzarali-packages/yotpo-react#readme"
+  "homepage": "https://github.com/gulzarali-packages/yotpo-react#readme",
+  "devDependencies": {
+    "npm-publish": "^0.4.7"
+  }
 }

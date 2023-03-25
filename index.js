@@ -1,6 +1,4 @@
 import React, { useEffect, useState } from "react";
-import { useRouter } from "next/router";
-
 
 const YotpoWidget = ({
   productId,
@@ -12,7 +10,6 @@ const YotpoWidget = ({
   apiKey,
 }) => {
   const [error, setError] = useState(null);
-  const router = useRouter();
 
   useEffect(() => {
     if (!productId) {
@@ -25,7 +22,7 @@ const YotpoWidget = ({
     script.src = `//staticw2.yotpo.com/${apiKey}/widget.js`;
     const firstScript = document.getElementsByTagName("script")[0];
     firstScript.parentNode.insertBefore(script, firstScript);
-  }, [router]);
+  }, [productId]);
   if (typeof window['yotpo'] !== 'undefined') {
     window['yotpo'].initWidgets();
   }
